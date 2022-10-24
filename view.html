@@ -1,0 +1,24 @@
+<h1>Резюме Архипов Г.В.</h1>
+
+<div>
+    Общее количество отзывов - {{.SignatureCount}}
+        <a href="/resume/new">Добавить</a>
+</div>
+
+<div>
+  <a href="https://saratov.hh.ru/resume/35cdfd3aff09ca49140039ed1f32555153615a">Резюме</a><br>
+  <a href="https://github.com/GrigoriyAr">GitBub</a>
+  <a href="signatures.txt">Отзывы</a>
+  <button type='button' onclick="toggleText()">Контакты</button>
+<p id='demo' style='display: none'>Telegram: Arhipov_Grigoriy <br> Mail: arhipov.grigo@yandex.ru</p>
+<script>
+function toggleText() {
+  var text = document.getElementById("demo");
+  if (text.style.display === "none") {
+    text.style.display = "block";
+  } else {
+    text.style.display = "none";
+  }
+}
+</script>
+</div>
